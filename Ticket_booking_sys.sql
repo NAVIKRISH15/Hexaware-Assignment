@@ -70,7 +70,7 @@ INSERT INTO Customer (customer_id, customer_name, email, phone_number, booking_i
 (110, 'Jack Brown', 'jack@example.com', '666-777-8888',20);
 
 select * from customer;
-drop table customer;
+
 
 INSERT INTO Booking (booking_id, customer_id, event_id, num_tickets, total_cost, booking_date) VALUES
 (11, 101, 1, 2, 10000.00, '2024-05-05'),
